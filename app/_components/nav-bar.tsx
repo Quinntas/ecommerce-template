@@ -13,7 +13,9 @@ import {cn} from "@/lib/utils";
 import React from "react";
 import Link from "next/link";
 import {Input} from "@/components/ui/input";
-import {Button} from "@/components/ui/button";
+import {CartButton} from "@/app/_components/cart-button";
+import {AccountButton} from "@/app/_components/account-button";
+import {ModeToggle} from "@/components/mode-toggle";
 
 const ListItem = React.forwardRef<
     React.ElementRef<"a">,
@@ -43,9 +45,10 @@ ListItem.displayName = "ListItem"
 
 export function NavBar() {
     return <>
-        <div className={"w-full flex items-center justify-between p-[20px] pl-[100px] pr-[100px]"}>
+        <div
+            className={"w-full flex items-center justify-between sticky backdrop-blur bg-transparent top-0 left-0 z-50"}>
             <div className={"flex items-center gap-[30px]"}>
-                <h1 className={"text-xl font-semibold mr-[20px]"}>Ecommerce</h1>
+                <h1 className={"text-2xl font-semibold mr-[20px]"}>Ecommerce</h1>
 
                 <NavigationMenu>
                     <NavigationMenuList>
@@ -101,11 +104,10 @@ export function NavBar() {
             </div>
 
             <div className={"flex items-center gap-[10px]"}>
-                <Input type="Search" placeholder="Seach Placeholder"/>
-
-                <Button>
-                    Login
-                </Button>
+                <Input type="search" placeholder="Type to search"/>
+                <ModeToggle/>
+                <CartButton/>
+                <AccountButton/>
             </div>
         </div>
     </>
