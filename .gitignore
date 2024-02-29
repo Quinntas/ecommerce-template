@@ -8,6 +8,8 @@
 
 .idea
 
+pnpm-lock.yaml
+
 .env
 /public/robots.txt
 /public/sitemap.xml

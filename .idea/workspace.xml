@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e289d970-cfcd-498c-8db8-5837eb8cb137" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/@types/next-auth.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/nav-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/nav-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/mode-toggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/providers/auth-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709139797404</updated>
       <workItem from="1709139800544" duration="4375000" />
-      <workItem from="1709145739195" duration="6987000" />
+      <workItem from="1709145739195" duration="7211000" />
     </task>
     <servers />
   </component>
